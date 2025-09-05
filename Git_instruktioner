@@ -1,0 +1,23 @@
+Klona git-repo
+git init              # Skapa nytt git-repo i mappen
+git clone <url>       # Klona ett repo från GitHub
+git status            # Se status (ändrade, nya, otrackade filer)
+git log               # Se commit-historik
+
+
+git add <fil>         # Lägg till en fil till nästa commit
+git add .             # Lägg till ALLA ändrade filer
+git commit -m "text"  # Skapa en commit med beskrivande meddelande
+git push              # Pusha commitade ändringar till Git
+git pull              # Pull ändringar från Git (VIKTIGT OM SAMMA BRANCH!)
+
+git branch                    # Lista alla branches
+git branch <namn>             # Skapa en ny branch
+git checkout <namn>           # Byt till en branch
+git checkout -b <namn>        # Skapa OCH byt till branch
+git push -u origin <namn>     # Pusha en ny branch till GitHub
+git merge <namn>              # Slå ihop <namn> in i den branch du står på
+
+git restore .                 # Återställ alla filer till senaste Git versionen
+
+Era brancher heter emelie och emma så byt ut <namn> till ert branch namn

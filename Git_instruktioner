@@ -11,7 +11,8 @@ git commit -m "text"  # Skapa en commit med beskrivande meddelande
 git push              # Pusha commitade ändringar till Git
 git pull              # Pull ändringar från Git (VIKTIGT OM SAMMA BRANCH!)
 
-git branch                    # Lista alla branches
+git branch                    # Lista alla branches 
+                              (Gör för att kolla vilken branch ni är i)
 git branch <namn>             # Skapa en ny branch
 git checkout <namn>           # Byt till en branch
 git checkout -b <namn>        # Skapa OCH byt till branch

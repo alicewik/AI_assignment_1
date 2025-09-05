@@ -15,7 +15,6 @@ git branch                    # Lista alla branches
                               (Gör för att kolla vilken branch ni är i)
 git branch <namn>             # Skapa en ny branch
 git checkout <namn>           # Byt till en branch
-git checkout -b <namn>        # Skapa OCH byt till branch
 git push -u origin <namn>     # Pusha en ny branch till GitHub
 git merge <namn>              # Slå ihop <namn> in i den branch du står på
 

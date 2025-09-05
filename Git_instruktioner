@@ -22,3 +22,6 @@ git merge <namn>              # Slå ihop <namn> in i den branch du står på
 git restore .                 # Återställ alla filer till senaste Git versionen
 
 Era brancher heter emelie och emma så byt ut <namn> till ert branch namn
+
+R-kommandon för att få upp installerade paketet DeliveryMan
+help(package = "DeliveryMan")

@@ -1,0 +1,22 @@
+# RStudio filer
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# macOS skräpfiler
+.DS_Store
+
+# Bygg- och cachefiler från knitr/Quarto
+*_cache/
+*.utf8.md
+*.knit.md
+*.nb.html
+
+# R check
+*.Rcheck/
+
+# (valfritt) datafiler som inte ska versioneras
+# data/
+# *.csv
+# *.rds
